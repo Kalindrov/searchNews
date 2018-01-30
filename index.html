@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>New York Times Search</title>
+	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Merriweather|Oswald:700|Raleway:500" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="searchNews.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<h1 class="header"><img class="image" src="iconOne.png">New York Times Search</h1>
+	<div id="row"></div>
+	<form class="form">
+		<div class="headline col-sm-12"><img class="image2" src="iconTwo.png">Search Parameters </div>
+		<section class="col-sm-12">
+
+		<p class="entryBox"> Search Terms: <br><input type="text" id="search"></p>
+		
+		<p class="entryBox">Number of Records to Retrieve: <br><input type="text" id="numRecords"></p>
+		
+		<p class="entryBox">Start Year (Optional): <br><input type="number" id="start"></p>
+		
+		<p class="entryBox">End Year (Optional): <br><input type="number" id="end" ></p>
+		
+		<p class="buttons">
+		<button class="col-sm-1" id="searchButton"><img class="image3" src="iconThree.png">Search</button>
+		<button class="col-sm-2" id="clearButton"><img class="image3" src="iconFour.png">Clear Results</button>
+		</p>
+		</section>
+	</form>
+	<div id="row"></div>
+	<form class="form" id="top-articles-form">
+		<div class="headline col-sm-12"><img class="image2" src="iconFive.png">Top Articles</div>
+			<div class="results" id="topArticles"></div>
+
+		</section>
+	</form>
+
+
+		
+	</div>
+<script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
+
+ <!-- placeholder="enter search term here.." -->
+<!--  placeholder="how many records would you like to retrieve.."
+ placeholder="enter start year..
+ placeholder="enter end year.." -->
